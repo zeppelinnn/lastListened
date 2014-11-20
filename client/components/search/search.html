@@ -1,0 +1,13 @@
+<div ng-controller="SearchCtrl">
+  <div class="container">
+    <div class="search-box">
+      <form ng-submit="submit()">
+        <input type="text" class="search-bar" ng-model="search" placeholder='{{default}}'>
+        <input type="submit" value="Search"/>
+      </form>
+    </div>
+    <ul class="results-box">
+      <li ng-repeat="result in results">{{result.name}}</li>
+    </ul>
+  </div>
+</div>

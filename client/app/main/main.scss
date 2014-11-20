@@ -1,5 +1,18 @@
-.thing-form {
-    margin: 20px 0;
+.hero-unit {
+    position: relative;
+    padding: 30px 15px;
+    background: #cb2121;
+    color: #F5F5F5;
+    text-align: center;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+}
+
+.footer {
+    text-align: center;
+    padding: 30px 0;
+    margin-top: 55px;
+    border-top: 1px solid #E5E5E5;
+    width: 100%;
 }
 
 #banner {
@@ -13,18 +26,8 @@
     letter-spacing: -1px;
 }
 
-.hero-unit {
-    position: relative;
-    padding: 30px 15px;
-    color: #F5F5F5;
-    text-align: center;
-    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
-    background: #4393B9;
-}
-
-.footer {
-    text-align: center;
-    padding: 30px 0;
-    margin-top: 70px;
-    border-top: 1px solid #E5E5E5;
+#banner h2 {
+  font-size: 36px;
+  line-height: 1;
+  letter-spacing: -1px;
 }

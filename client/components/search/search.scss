@@ -1,0 +1,19 @@
+.search-bar {
+  // text-align: center;
+}
+
+.search-box {
+  text-align: center;
+  margin-top: 10px;
+  display: block;
+}
+
+.results-box {
+  margin-top: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 290px;
+  li {
+    list-style-type: none;
+  }
+}
